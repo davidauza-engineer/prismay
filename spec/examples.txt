@@ -1,8 +1,0 @@
-example_id                                                | status  | run_time        |
---------------------------------------------------------- | ------- | --------------- |
-./spec/controllers/static_pages_controller_spec.rb[1:1:1] | passed  | 0.01574 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:1:2] | passed  | 0.02669 seconds |
-./spec/helpers/static_pages_helper_spec.rb[1:1]           | pending | 0.00001 seconds |
-./spec/requests/static_pages_request_spec.rb[1:1:1]       | passed  | 1.58 seconds    |
-./spec/routing/application_routing_spec.rb[1:1]           | passed  | 0.00395 seconds |
-./spec/views/static_pages/home.html.erb_spec.rb[1:1]      | pending | 0.00001 seconds |
