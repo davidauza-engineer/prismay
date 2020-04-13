@@ -14,7 +14,7 @@ RSpec.describe StaticPagesController, type: :controller do
     end
 
     it 'has the right title' do
-      expect(response.body).to have_title 'Home' + base_title
+      expect(response.body).to have_title I18n.t('static_pages.home.title') + base_title
     end
   end
 end
